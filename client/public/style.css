@@ -1,0 +1,110 @@
+body{
+padding: 0 0;
+margin: 0 0 5vw 0;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questions, .topics, .header{
+    padding: 0 5vw; 
+}
+body{
+    background-color: rgb(228, 229, 240);
+}
+.header{
+    background-color: white;
+}
+h1{
+    color: rgb(0, 98, 255);
+}
+
+.questions article{
+    background-color: white;
+    padding: 2vw;
+    margin-bottom: 1vw;
+}
+
+.questions article div, .question div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.question{
+    background-color: white;
+    margin: 0 5vw;
+    padding: 3vw;
+}
+
+.answer{
+    background-color: rgb(228, 228, 228);
+    padding: 1vw;
+    margin: 0 5vw;
+    font-size: 0.8rem;
+}
+
+.comments {
+    float: right;
+}
+
+.cmt-txt{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ask{
+    margin: 5vh 5vw;
+    background-color: rgb(228, 228, 228);
+    display: grid;
+    justify-items: center;
+}
+
+.ask form{
+    display: grid;
+    justify-items: start;
+}
+
+.ask form label{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.votes::before{
+    content: "▲";
+    margin-right: 6px;
+}
+
+.votes{
+    color: rgb(109, 151, 112);
+}
+
+.topics, .header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center; 
+}
+input{
+    padding: 1vw;
+}
+.login, .newuser{
+    padding: 5vw;
+}
+button{
+    background-color: rgb(216, 193, 191);
+    padding: 0.5vw;
+    border: none;
+}
